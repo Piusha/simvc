@@ -1,0 +1,1 @@
+<?php/** * Main index file will be invoking when user call application URL */require("Core/Init.php");$app = new Router();
