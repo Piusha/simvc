@@ -1,1 +1,1 @@
-<?phprequire("config.php");require("Router.php");require("Controller.php");require("View.php");require("Model.php");
+<?php/** * Invoke Configuration and core files  */ require("config.php");require("Router.php");require("Controller.php");require("View.php");require("Model.php");

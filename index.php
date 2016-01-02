@@ -1,1 +1,1 @@
-<?php/** * Main index file will be invoking when user call application URL */require("Core/Init.php");$app = new Router();
+<?phpini_set('display_startup_errors',1);ini_set('display_errors',1);error_reporting(-1);/** * Main index file will be invoking when user call application URL */require("Core/Init.php");$app = new Router();
